@@ -29,7 +29,7 @@ for type in type_files:
     if type not in os.listdir():
         os.mkdir(type)
         
-# 5 - organizando arquivos
+# 5 - organizando arquivoS
 for file in list_files:
     for type in type_files:
         if '.' + type in file:
