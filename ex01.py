@@ -23,7 +23,7 @@ list_files = os.listdir(cwd)
 print(list_files)
 
 # 4 - criar pastas
-type_files = ['exe', 'csv', 'mkv', 'psd', 'pptx', 'pdf', 'png', 'jpeg', 'zip', 'xlsx','py', 'svg', 'fbx', 'docx', 'gif', 'sfk', 'mp4', 'htm', 'rmskin', 'msi']
+type_files = ['exe', 'csv', 'mkv', 'psd', 'pptx', 'pdf', 'png', 'jpeg', 'zip', 'xlsx','py', 'svg', 'fbx', 'docx', 'gif', 'sfk', 'mp4', 'htm', 'rmskin', 'msi', 'txt']
 
 for type in type_files:
     if type not in os.listdir():
